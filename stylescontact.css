@@ -1,0 +1,290 @@
+.contact{
+    width: 100%;
+    height: 100%;
+
+}
+
+.contenedor-generalcontact{
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-contact{
+    margin: 50px;
+    text-align: center;
+    font-family: inter;
+}
+
+.titulo-contact h3{
+    font-size: 14px;
+    color:rgb(255,1,79);
+    font-weight:600;
+}
+
+.titulo-contact h1{
+    font-size: 50px;
+    color: rgb(60,62,65);
+}
+
+
+.contenedores-contact{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.tarjeta{
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.formulario{
+    width: 50%;
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    flex-grow: 1;
+
+
+   
+}
+
+form{
+    padding: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    font-family: inter;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: linear-gradient(100deg,rgba(226, 221, 221, 0.473),white);
+    box-shadow: 10px 10px 10px rgb(230, 227, 227),
+    -10px -10px 20px white;
+    font-family: inter;
+    font-size: 11px;
+    color: rgb(87, 86, 86);
+    
+
+
+}
+
+
+
+.user-details{
+    display: flex;
+    align-items: center;
+     flex-wrap:wrap ;
+     width: 100%;
+     height: auto;
+     margin: 0;
+    
+}
+
+
+
+.user-details input{
+    width: 90%;
+    margin: 20px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border:1px solid grey;
+    
+}
+
+
+.user-details textarea{
+    width:90%;
+    height:150px;
+    margin: 25px;
+}
+
+.primeros{
+    display: flex;
+    width: 100%;
+    
+}
+
+#nombre{
+    width: 70%;
+}
+
+#phone{
+    width:80% ;
+  
+}
+
+.boton-form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-form button{
+    width: 95%;
+    height: 40px;
+    cursor: pointer;
+    font-family: inter;
+    font-weight: 600;
+    border: none;
+    background-color:rgb(255,1,79);
+    color:white;
+    cursor: pointer;
+    transition: all .5s ease;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgb(230, 227, 227),
+  -10px -10px 20px white;
+
+}
+
+
+.boton-form button:hover{
+   
+     transform: scale(1.1,1.1);
+     background-color:rgba(196, 15, 120, 0.815);
+   }
+
+
+
+textarea{
+    outline: none;
+    resize: none;
+}
+
+
+
+.contenedor-cartacontact{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg,rgb(230, 227, 227),white);
+    box-shadow: 10px 10px 10px rgb(230, 227, 227),
+    -10px -10px 20px white;
+   min-width: 80%;
+}
+
+.contenedor-imagenc{
+   margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:auto ;
+    
+}
+
+.contenedor-imagenc img{
+    width:70%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+
+.titulo-tarjeta{
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    margin: 20px;
+    width: 80%;
+    
+}
+
+.titulo-tarjeta h2{
+    font-size: 18px;
+    color: rgb(60,62,65);
+
+}
+
+.titulo-tarjeta h3{
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 400;
+     color: rgb(60,62,65);
+}
+
+.parrafo-tarjeta{
+    width: 80%;
+    font-size: 14px;
+    margin-top: 10px;
+    
+    
+}
+
+.contactos{
+    font-family: inter;
+    font-size: 14px;
+    width: 60%;
+    margin-top: 20px;
+}
+
+.contactos p {
+   margin-top: 5px;
+
+}
+
+.contenedorspan{
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.contenedorbotons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+}
+
+
+
+.botonred{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.botonred:hover{
+    transform: scale(1.1,1.1);
+    background-color:rgba(255, 1, 77, 0.473);
+  }
+
+
+@media screen and (max-width:700px) {
+    
+    .contenedores-contact{
+flex-wrap: wrap;
+
+    }
+
+    .tarjeta{
+    flex-grow: 1
+    }
+
+};

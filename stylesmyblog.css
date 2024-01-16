@@ -1,0 +1,70 @@
+.myblog{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+.contenedor-generalblog{
+    width: 100%;
+    display: flex;
+   height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-blog{
+    font-family: inter;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo-blog h3{
+    font-size: 15px;
+    margin: 10px;
+    color:rgb(255,1,79);
+    font-weight: 500;
+}
+
+
+.titulo-blog h1{
+    font-size:50px;
+    color: rgb(60,62,65);
+}
+
+.contenedor-cardsblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+
+.cartasblog {
+
+    width: 300px;
+    height: 290px;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 10px 10px 10px rgb(230, 227, 227),
+    -8px -8px 20px white;
+  
+               background-color: rgb(230,235,238);
+               transition: all .5s ease;
+               cursor: pointer;
+        
+
+             
+  }
+
+  .cartasblog:hover{
+    transform: scale(1.1,1.1);
+    background-color:rgba(255, 1, 77, 0.473);
+  }

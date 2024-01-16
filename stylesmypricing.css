@@ -1,0 +1,281 @@
+.mypricing{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    
+    
+    
+}
+.contenedor-generalpricing{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    
+    
+
+  
+
+}
+
+
+.cont-flex{
+    display: flex;
+    width: 90%;
+    max-width: 100%;
+  
+    justify-content: space-around;
+    
+    margin: 50px;
+    
+}
+    
+.titulopricing{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    max-width: 50%;
+    min-width: 300px;
+    font-family: inter;
+    margin: 30px;
+    flex-grow: 1
+    ;
+
+}
+
+.titulopricing h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:rgb(255,1,79);
+    font-weight: 500;
+}
+.titulopricing h1{
+    font-size: 40px;
+    color: rgb(60,62,65);
+}
+.cartapricing{
+    width: 100%;
+    height:100%;
+    flex-grow: 1;
+  padding: 30px;
+  box-shadow: 10px 10px 10px rgb(230, 227, 227),
+  -8px -8px 20px white;
+    max-width: 100%;
+    border-radius: 10px;
+    min-width: 260px;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.contenedordebarra{
+    width: 100%;
+   box-shadow: 0px 5px 10px 0px rgba(224, 220, 220, 0.897);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: inter;
+    max-width: 100%;
+    border-radius: 10px;
+ 
+
+    
+}
+    
+    .barraspricing{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5px;
+        box-shadow: 0px 5px 10px 0px rgba(224, 220, 220, 0.897);
+       transition: all .5s ease;
+        height: 70px;
+        cursor: pointer;
+        border-radius: 10px;
+    
+
+    }
+
+    .barraspricing:hover{
+        transform: scale(1.1,1.1);
+        border-radius: 10px;  
+        color: white; 
+        background-color:rgba(255, 1, 77, 0.473);
+      }
+
+
+    
+
+
+
+    .barraspricing h3{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+
+    .makethis{
+        width: auto;
+        font-family: inter;
+       margin: 25px;
+
+    
+       
+    
+    }
+
+.makethis h2{
+    font-size: 20px;
+    color: rgb(60,62,65);
+}
+
+.makethis h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(60,62,65);
+}
+
+    .botonprecio{
+        width: auto;
+        display: flex;
+        height: auto;
+        justify-content: flex-end;
+        align-items: center;
+        padding:5px 40px 0 0;
+        
+        
+       
+       
+    }
+
+    .botonprecio button:hover{
+        transform: scale(1.1,1.1);
+        background-color:rgba(255, 1, 77, 0.473);
+      }
+    
+
+    .botonprecio button{
+        width: 100px;
+        height: 50px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: inter;
+        font-weight: 900;
+        color:rgb(255,1,79);
+        cursor: pointer;
+        transition: all .5s ease;
+        flex-wrap: wrap;
+        background-color: rgba(199, 207, 207, 0.288);
+    }
+
+    .parrafomakethis{
+    margin:20px 0 0 30px;
+    font-family: inter;
+  width: auto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  color: rgb(60,62,65);
+    }
+
+    .items{
+        display: flex;
+        width: auto;
+        justify-content: space-around;
+        padding: 30px;
+        font-family: inter;
+        flex-wrap: wrap;
+        color: rgb(60,62,65);
+    
+    }
+
+  
+
+    .items1{
+        
+        line-height: 40px;
+    }
+
+ 
+    .items1 p i{
+        margin: 5px;
+        color:rgb(255,1,79);
+    }
+
+    .items2{
+        
+        line-height: 40px;
+    }
+
+    .items2 p i{
+        margin: 5px;
+        color:rgb(255,1,79);
+    }
+
+    
+
+    .boton-ordernow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .boton-ordernow button{
+        width: 550px;
+        height: 50px;
+        border: none;
+        border-radius: 8px;
+        font-family: inter;
+        font-weight: 800;
+        color:rgb(255,1,79);
+        font-size: 14px;
+        cursor: pointer;
+        transition: all .5s ease;
+        box-shadow: 10px 10px 10px rgb(230, 227, 227),
+        -10px -8px 20px white;
+    }
+
+    .boton-ordernow button:hover{
+       color: white;
+        transform: scale(1.1,1.1);
+        background-color:rgba(255, 1, 77, 0.473);
+      }
+
+    
+
+    .boton-ordernow button i{
+        font-size: 16px;
+        margin: 5px;
+        
+        
+    }
+
+    .spanfooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+       
+    }
+
+    .spanfooter span{
+        font-family: inter;
+        font-size: 12px;
+        color: rgba(128, 128, 128, 0.959);
+        font-weight: 500;
+
+    }
+
+
+    @media screen and (max-width:660px){
+
+        .cont-flex{
+            flex-wrap: wrap;
+        }
+    };
